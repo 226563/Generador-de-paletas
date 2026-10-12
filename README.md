@@ -17,3 +17,13 @@ ColorFly Studio está desarrollado con HTML, CSS y JavaScript, sin frameworks. H
 ## Captura de la aplicación
 
 ![ColorFly Studio mostrando una paleta en formato RGBA y controles para bloquear colores](./capturas/Captura%20de%20pantalla%202026-10-12%20192512.png)
+
+## Uso de herramientas de IA
+
+Se utilizó GitHub Copilot en VS Code como apoyo durante el desarrollo. La herramienta ayudó a identificar y corregir problemas, mejorar la organización visual y la accesibilidad, implementar y revisar funciones del generador, y redactar esta documentación. Las propuestas se revisaron y se probaron en la aplicación.
+
+Algunos prompts utilizados fueron:
+
+- «Necesito que el footer quede siempre abajo».
+- «Ayúdame a hacer el README».
+- «Corregilos».
