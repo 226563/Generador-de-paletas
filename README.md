@@ -26,4 +26,3 @@ Algunos prompts utilizados fueron:
 
 - «Necesito que el footer quede siempre abajo».
 - «Ayúdame a hacer el README».
-- «Corregilos».
