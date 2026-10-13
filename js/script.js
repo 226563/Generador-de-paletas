@@ -21,11 +21,11 @@ generarBoton.addEventListener('click', () => {
         nuevaPaleta.push(entrada);
 
         const color = entrada.color;
-        const codigoParaMostrar = formatoElegido === "rgba" ? color.rgba : color.hex;
+        const codigoParaMostrar = formatoElegido === "hsl" ? color.hsl : color.hex;
         const colorDiv = document.createElement('div');
         colorDiv.classList.add('color');
         colorDiv.style.backgroundColor = color.hex;
-        colorDiv.innerHTML = `<p>${codigoParaMostrar}</p><p>${color.hsl}</p>`;
+        colorDiv.innerHTML = `<p>${codigoParaMostrar}</p>`;
 
         const botonBloqueo = document.createElement('button');
         botonBloqueo.type = 'button';
@@ -40,6 +40,7 @@ generarBoton.addEventListener('click', () => {
     }
     paletaActual = nuevaPaleta;
 });
+generarBoton.click()
 
 function getRandomNumber(min, max) {
 return Math.floor(Math.random() * (max - min + 1)) + min;
