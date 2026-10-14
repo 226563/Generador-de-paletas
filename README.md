@@ -16,9 +16,7 @@ ColorFly Studio está desarrollado con HTML, CSS y JavaScript, sin frameworks. H
 
 ## Captura de la aplicación
 
-La captura corresponde a una versión anterior de la aplicación y todavía muestra el formato RGBA.
-
-
+![ColorFly Studio mostrando una paleta de seis colores en formato HEX, con controles para generar y bloquear colores](./capturas/Captura%20de%20pantalla%202026-10-14%20115457.png)
 
 ## Uso de herramientas de IA
 
